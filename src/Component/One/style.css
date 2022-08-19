@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.row {
+  background-color: #555;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main {
+  padding: 10px;
+  color: tomato;
+  background-color: thistle;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.main:hover {
+  transform: translateY(-20px);
+  background-color: #fff;
+  font-size: 30px;
+}
+h4 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 30px;
+}

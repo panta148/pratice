@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+// import Greeting from './Component/One/One'
+// import Counter from './Component/Two/Counter'
+import Todo from './Component/TODo/Todo'
+import Texttual from './Component/Texttuil/Texttuil'
+import Quize from './Component/quizeapp/Quize';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Greeting /> */}
+      {/* <Counter /> */}
+      {/* <Todo /> */}
+      {/* <Texttual /> */}
+      <Quize />
+
+    </>
   );
 }
 
